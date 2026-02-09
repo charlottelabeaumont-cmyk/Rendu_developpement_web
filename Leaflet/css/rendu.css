@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(254, 254, 255)
+}
+
+h1 {
+    color:rgb(1, 1, 1);
+    text-align: center;
+}
+
+
+#map {
+    width: 100%;
+    height: 590px;
+}
+
+p {
+    color:black;
+    text-align: justify;
+}
+
+
+/* Styles de la Légende */
+.info.legend {
+    background: white;
+    padding: 10px;
+    line-height: 20px;
+    color: black;
+    border-radius: 5px;
+}
+
+.legend i {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 50%; 
+    border: 1px solid rgb(234, 234, 234);
+}
+
+.legend_fort_impact {
+    background: #fa0000;
+}
+
+.legend_moyen_impact {
+    background: #fa8e00;
+}
+
+.legend_peu_impact {
+    background: #fafa00;
+}
+
+.legend_pas_impact {
+    background: #00fa11;
+}
+
+
+
