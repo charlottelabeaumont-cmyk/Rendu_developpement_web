@@ -1,0 +1,21 @@
+# GeoServer security
+/geoserver/opt/security
+# Node modules 
+/app/node_modules
+
+# Environnements
+.env
+.venv/
+
+
+# Docker
+**/volumes/
+**/docker-data/
+**/*.tar
+**/*.img
+
+# Données générées
+output/
+cache/
+tmp/
+

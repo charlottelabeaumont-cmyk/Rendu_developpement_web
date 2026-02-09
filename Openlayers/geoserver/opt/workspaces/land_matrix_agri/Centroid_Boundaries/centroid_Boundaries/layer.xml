@@ -1,0 +1,16 @@
+<layer>
+  <name>centroid_Boundaries</name>
+  <id>LayerInfoImpl-78236373:19b123bb86e:-7fba</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6a77b788:19ab5d15586:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-78236373:19b123bb86e:-7fbb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-01-08 14:31:50.793 UTC</dateCreated>
+</layer>
