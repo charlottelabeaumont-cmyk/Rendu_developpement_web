@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rendu</title>
+    <script type="module" crossorigin src="/assets/index-DoDZ42df.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-g4VpWViS.css">
+  </head>
+
+  <body>
+    <h1 id="title">La face cachée des acquisitions foncières agricoles</h1>
+    <h2 id="noms">
+     Réalisée par Silya Guerboub et Charlotte Jouve
+    </h2>
+
+    <div id="map">
+      <div id="fonddecarte" class="menu">
+        <fieldset>
+          <legend>Choisissez le fond <br>de carte souhaité :</legend>
+          <input type="radio" id="bouton-OSM" name="fond" value="OSM" checked />
+          <label for="bouton-OSM">Fond OSM</label><br />
+          <input type="radio" id="bouton-relief" name="fond" value="FondRelief" />
+          <label for="bouton-relief">Relief</label><br />
+        </fieldset>
+      </div>
+
+      <div id="layers" class="menu">
+        <fieldset>
+          <legend>Choisissez la ou les couches à afficher :</legend>
+          <input type="checkbox" id="checkbox-deals" checked />
+          <label for="checkbox-deals">Acquisitions Foncières Agricoles</label><br />
+          <input type="checkbox" id="checkbox-centro"  />
+          <label for="checkbox-centro">
+            Total de la surface des d'acquisitions foncières <br>
+            sans consultation des populations (en ha) 
+          </label> 
+        </fieldset>
+      </div>
+
+      <div id="violences" class="menu">
+        <fieldset>
+          <legend>Types de violence vécues :</legend>
+          <input type="checkbox" id="checkbox-env" />
+          <label for="checkbox-env">Dégradations environnementales</label><br />
+          <input type="checkbox" id="checkbox-dis" />
+          <label for="checkbox-dis">Déplacements de population</label><br />
+          <input type="checkbox" id="checkbox-vio" />
+          <label for="checkbox-vio">Violences multiples</label><br />
+          <input type="checkbox" id="checkbox-all" />
+          <label for="checkbox-all">Toutes les transactions</label><br />
+        </fieldset>
+      </div>
+
+      <div id="consultation" class="menu">
+        <fieldset>
+          <legend>Consultations avec les communautés locales :</legend>
+          <input type="checkbox" id="checkbox-notconsu" />
+          <label for="checkbox-notconsu">
+            Non consultées ou consultations limitées
+          </label><br />
+          <input type="checkbox" id="checkbox-consu" />
+          <label for="checkbox-consu">Consultées</label><br />
+          <input type="checkbox" id="checkbox-null" />
+          <label for="checkbox-null">Pas de renseignement </label><br />
+          <input type="checkbox" id="checkbox-all-con" />
+          <label for="checkbox-all-con">Toutes les transactions</label><br />
+        </fieldset>
+      </div>
+
+      <div id="legend" class="menu">
+        <strong>Légende</strong>
+        <div class="legend-item">
+          <span class="legend-dot"></span>
+          <span>Transactions</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-circle small"></span>
+          <span>100 000 ha</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-circle medium"></span>
+          <span>500 000 ha</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-circle large"></span>
+          <span>1 000 000 ha</span>
+        </div>
+      </div>
+
+    <div id="table" class="menu"></div>
+    </div>
+
+    <h2 id="explication">
+    Cette carte interactive révèle l’ampleur souvent invisible de l’accaparement des terres agricoles à travers le monde. 
+    Derrière chaque acquisition foncière se cachent des réalités humaines complexes : perte de terres, pressions économiques, 
+    consultations inexistantes ou symboliques, et parfois violences directes envers les communautés locales.
+    En explorant la carte, vous pouvez visualiser les zones concernées et filtrer les acquisitions selon les types de violences 
+    qu'elles peuvent entrainées ou le niveau de consultation des populations. Les surfaces représentées par les cercles ne sont pas de simples données 
+    chiffrées : elles traduisent des bouleversements profonds des modes de vie, des déplacements forcés et une dégradation durable des territoires.
+    Vous pouvez également cliquer sur n'importe quelle acquisition afin de voir le type de culture qu'elle représente, cela permet 
+    d'avoir une idée des cultures concernées.L’objectif de ce projet est de rendre ces dynamiques visibles, de sensibiliser le public 
+    aux enjeux fonciers contemporains et de questionner les pratiques des acteurs impliqués. En donnant à voir ces injustices spatialisées, 
+    cette carte se veut un outil de compréhension, mais aussi un appel à une prise de conscience collective et à l’action.
+    </h2>
+
+  </body>
+</html>
